@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    background-color: black;
+}
+.nav{
+    list-style: none;
+    margin: 13px;
+    padding: 13px;
+    font-size: 20px;
+}
+.nav a:hover{
+    margin: 13px;
+    padding: 13px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+}
+img{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    width: 390px;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+}
+.con{
+    min-height: 80vh;
+}
+.nav a{
+    margin: 20px;
+}
+.search #x{
+    height: 32px;
+    width: 300px;
+    align-items: center;
+    margin: 29px;
+    display: flex;
+}
+.search{
+    display: flex;
+    border-radius: 5px;
+}
+.btn{
+    margin: 29px 1px 29px;
+    width: 58px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.prog{
+
+    height: 2px;
+    background-color: red;
+    
+    animation-name: bn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 1s; 
+}
+@keyframes bn {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 50%;
+        
+    }
+    100%{
+        width: auto;
+    }
+}
